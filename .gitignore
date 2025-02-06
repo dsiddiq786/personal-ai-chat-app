@@ -1,0 +1,21 @@
+# Ignore Python Cache Files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Virtual Environment
+env/
+venv/
+
+# Ignore Logs
+logs/
+*.log
+
+# Ignore Credentials & API Keys
+.env
+seo-tool-model-390c944e3666.json
+
+# Ignore Build Files
+dist/
+build/
+*.spec
